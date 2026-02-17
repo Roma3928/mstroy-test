@@ -105,6 +105,7 @@ export class TreeStore<T extends TreeItem> {
     while (stack.length) {
       const currentId = stack.pop()!;
       const children = this.childrenMap.get(currentId);
+
       if (children) {
         for (const childId of children) {
           stack.push(childId);

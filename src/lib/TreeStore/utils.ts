@@ -11,7 +11,6 @@ export function mapTreeToRows<T extends TreeItem>(store: TreeStore<T>): TreeRow[
   const result: TreeRow[] = [];
   let order = 1;
 
-  // корневые элементы (parent === null)
   const roots = store.getChildren(null as any);
 
   const walk = (item: T, parentPath: string[]) => {
