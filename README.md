@@ -1,5 +1,41 @@
-# Vue 3 + TypeScript + Vite
+# MStroy
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Тестовое задание
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## Стек технологий
+
+- **Vue 3**
+- **TypeScript**
+- **Vite**
+- **AgGrid**
+- **Vitest**
+
+---
+
+## Установка и запуск
+
+### Установка зависимостей
+
+```bash
+npm install
+```
+
+### Запуск
+
+```bash
+npm run dev
+```
+
+### Сборка проекта
+
+```bash
+npm run build
+```
+
+### Запуск тестов
+
+```bash
+npm run test
+```
